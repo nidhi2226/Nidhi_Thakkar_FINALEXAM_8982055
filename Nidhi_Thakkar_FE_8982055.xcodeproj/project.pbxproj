@@ -13,6 +13,20 @@
 		0D548DBC2BC5D4DE0091D854 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D548DBA2BC5D4DE0091D854 /* Main.storyboard */; };
 		0D548DBE2BC5D4DF0091D854 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D548DBD2BC5D4DF0091D854 /* Assets.xcassets */; };
 		0D548DC12BC5D4DF0091D854 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D548DBF2BC5D4DF0091D854 /* LaunchScreen.storyboard */; };
+		0DCA349D2BCB357B0086F5B4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA349C2BCB357B0086F5B4 /* MainViewController.swift */; };
+		0DCA349F2BCB38200086F5B4 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA349E2BCB38200086F5B4 /* News.swift */; };
+		0DCA34A12BCB38ED0086F5B4 /* weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA34A02BCB38ED0086F5B4 /* weather.swift */; };
+		0DCA34A32BCB39800086F5B4 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA34A22BCB39800086F5B4 /* Map.swift */; };
+		0DCA34A52BCB39D30086F5B4 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA34A42BCB39D30086F5B4 /* History.swift */; };
+		0DCA34A72BCB3BF30086F5B4 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA34A62BCB3BF30086F5B4 /* NewsModel.swift */; };
+		0DCA34A92BCB3C620086F5B4 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA34A82BCB3C620086F5B4 /* WeatherModel.swift */; };
+		0DCA34AB2BCB3CBC0086F5B4 /* DetailsNewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA34AA2BCB3CBC0086F5B4 /* DetailsNewsTableViewCell.swift */; };
+		0DCA34AD2BCB3D460086F5B4 /* DirectionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA34AC2BCB3D460086F5B4 /* DirectionsTableViewCell.swift */; };
+		0DCA34AF2BCB3DA10086F5B4 /* NewsDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA34AE2BCB3DA10086F5B4 /* NewsDataTableViewCell.swift */; };
+		0DCA34B12BCB3DE30086F5B4 /* WeatherDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA34B02BCB3DE30086F5B4 /* WeatherDetailTableViewCell.swift */; };
+		0DCA34B72BCB42E00086F5B4 /* Nidhi_Thakkar_FE_8982055.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA34B52BCB42E00086F5B4 /* Nidhi_Thakkar_FE_8982055.xcdatamodeld */; };
+		0DCA34B92BCB479E0086F5B4 /* DataSavingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA34B82BCB479E0086F5B4 /* DataSavingManager.swift */; };
+		0DCA34BD2BCB482E0086F5B4 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA34BC2BCB482E0086F5B4 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +38,20 @@
 		0D548DBD2BC5D4DF0091D854 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D548DC02BC5D4DF0091D854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D548DC22BC5D4DF0091D854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DCA349C2BCB357B0086F5B4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0DCA349E2BCB38200086F5B4 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		0DCA34A02BCB38ED0086F5B4 /* weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weather.swift; sourceTree = "<group>"; };
+		0DCA34A22BCB39800086F5B4 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		0DCA34A42BCB39D30086F5B4 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		0DCA34A62BCB3BF30086F5B4 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		0DCA34A82BCB3C620086F5B4 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		0DCA34AA2BCB3CBC0086F5B4 /* DetailsNewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsNewsTableViewCell.swift; sourceTree = "<group>"; };
+		0DCA34AC2BCB3D460086F5B4 /* DirectionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsTableViewCell.swift; sourceTree = "<group>"; };
+		0DCA34AE2BCB3DA10086F5B4 /* NewsDataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDataTableViewCell.swift; sourceTree = "<group>"; };
+		0DCA34B02BCB3DE30086F5B4 /* WeatherDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailTableViewCell.swift; sourceTree = "<group>"; };
+		0DCA34B62BCB42E00086F5B4 /* Nidhi_Thakkar_FE_8982055.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nidhi_Thakkar_FE_8982055.xcdatamodel; sourceTree = "<group>"; };
+		0DCA34B82BCB479E0086F5B4 /* DataSavingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSavingManager.swift; sourceTree = "<group>"; };
+		0DCA34BC2BCB482E0086F5B4 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +86,25 @@
 			children = (
 				0D548DB42BC5D4DE0091D854 /* AppDelegate.swift */,
 				0D548DB62BC5D4DE0091D854 /* SceneDelegate.swift */,
+				0DCA34A42BCB39D30086F5B4 /* History.swift */,
+				0DCA34A22BCB39800086F5B4 /* Map.swift */,
+				0DCA34A02BCB38ED0086F5B4 /* weather.swift */,
+				0DCA349E2BCB38200086F5B4 /* News.swift */,
+				0DCA349C2BCB357B0086F5B4 /* MainViewController.swift */,
 				0D548DB82BC5D4DE0091D854 /* ViewController.swift */,
+				0DCA34A62BCB3BF30086F5B4 /* NewsModel.swift */,
+				0DCA34A82BCB3C620086F5B4 /* WeatherModel.swift */,
+				0DCA34B02BCB3DE30086F5B4 /* WeatherDetailTableViewCell.swift */,
 				0D548DBA2BC5D4DE0091D854 /* Main.storyboard */,
+				0DCA34AE2BCB3DA10086F5B4 /* NewsDataTableViewCell.swift */,
+				0DCA34AC2BCB3D460086F5B4 /* DirectionsTableViewCell.swift */,
+				0DCA34AA2BCB3CBC0086F5B4 /* DetailsNewsTableViewCell.swift */,
+				0DCA34BC2BCB482E0086F5B4 /* Utils.swift */,
+				0DCA34B82BCB479E0086F5B4 /* DataSavingManager.swift */,
 				0D548DBD2BC5D4DF0091D854 /* Assets.xcassets */,
 				0D548DBF2BC5D4DF0091D854 /* LaunchScreen.storyboard */,
 				0D548DC22BC5D4DF0091D854 /* Info.plist */,
+				0DCA34B52BCB42E00086F5B4 /* Nidhi_Thakkar_FE_8982055.xcdatamodeld */,
 			);
 			path = Nidhi_Thakkar_FE_8982055;
 			sourceTree = "<group>";
@@ -138,9 +180,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DCA34AF2BCB3DA10086F5B4 /* NewsDataTableViewCell.swift in Sources */,
 				0D548DB92BC5D4DE0091D854 /* ViewController.swift in Sources */,
+				0DCA34A12BCB38ED0086F5B4 /* weather.swift in Sources */,
 				0D548DB52BC5D4DE0091D854 /* AppDelegate.swift in Sources */,
+				0DCA34A52BCB39D30086F5B4 /* History.swift in Sources */,
+				0DCA34B12BCB3DE30086F5B4 /* WeatherDetailTableViewCell.swift in Sources */,
 				0D548DB72BC5D4DE0091D854 /* SceneDelegate.swift in Sources */,
+				0DCA34B72BCB42E00086F5B4 /* Nidhi_Thakkar_FE_8982055.xcdatamodeld in Sources */,
+				0DCA34A92BCB3C620086F5B4 /* WeatherModel.swift in Sources */,
+				0DCA34BD2BCB482E0086F5B4 /* Utils.swift in Sources */,
+				0DCA34AB2BCB3CBC0086F5B4 /* DetailsNewsTableViewCell.swift in Sources */,
+				0DCA34A32BCB39800086F5B4 /* Map.swift in Sources */,
+				0DCA349F2BCB38200086F5B4 /* News.swift in Sources */,
+				0DCA34AD2BCB3D460086F5B4 /* DirectionsTableViewCell.swift in Sources */,
+				0DCA34A72BCB3BF30086F5B4 /* NewsModel.swift in Sources */,
+				0DCA349D2BCB357B0086F5B4 /* MainViewController.swift in Sources */,
+				0DCA34B92BCB479E0086F5B4 /* DataSavingManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +412,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0DCA34B52BCB42E00086F5B4 /* Nidhi_Thakkar_FE_8982055.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0DCA34B62BCB42E00086F5B4 /* Nidhi_Thakkar_FE_8982055.xcdatamodel */,
+			);
+			currentVersion = 0DCA34B62BCB42E00086F5B4 /* Nidhi_Thakkar_FE_8982055.xcdatamodel */;
+			path = Nidhi_Thakkar_FE_8982055.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0D548DA92BC5D4DE0091D854 /* Project object */;
 }
